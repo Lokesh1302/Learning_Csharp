@@ -11,7 +11,7 @@ class Class1
         int[] nandk = Array.ConvertAll(tokens, int.Parse);
         int temp;
         Queue<int> myQueue = new Queue<int>();
-
+        Console.Write(myQueue);
         line = Console.ReadLine();
         tokens = line.Split(' ');
         int[] numbers = Array.ConvertAll(tokens, int.Parse);
